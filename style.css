@@ -55,50 +55,87 @@
 }
 /* partners-section */
 .partners-section {
-    background-color: #007bff;
-    color: #fff;
-    padding: 40px 0;
-  }
-  .partners-section h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
-  }
-  .partner-logo {
-    margin: 0 20px;
-  }
-  .footer {
-    background-color: #f8f9fa;
-    padding: 40px 0;
-  }
-  .footer-column {
-    margin-bottom: 20px;
-  }
-  .footer-column h4 {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-  .footer-column ul {
-    list-style: none;
-    padding: 0;
-  }
-  .footer-column ul li {
-    margin-bottom: 10px;
-  }
-  .footer-column ul li a {
-    color: #333;
-    text-decoration: none;
-  }
-  .footer-column ul li a:hover {
-    color: #007bff;
-  }
-  .social-icons {
-    margin-top: 20px;
-  }
-  .social-icons a {
-    color: #333;
-    font-size: 24px;
-    margin-right: 10px;
-  }
-  .social-icons a:hover {
-    color: #007bff;
-  }
+  background-color: #007bff;
+  color: #fff;
+  padding: 40px 0;
+}
+.partners-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.partner-logo {
+  margin: 0 20px;
+}
+.footer {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+.footer-column {
+  margin-bottom: 20px;
+}
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+.footer-column ul li a {
+  color: #333;
+  text-decoration: none;
+}
+.footer-column ul li a:hover {
+  color: #007bff;
+}
+.social-icons {
+  margin-top: 20px;
+}
+.social-icons a {
+  color: #333;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.social-icons a:hover {
+  color: #007bff;
+}
+/* Nav-bar */
+.navbar {
+  transition: background-color 0.3s ease;
+  width: 100%;
+  left: 0;
+}
+
+.navbar.fixed-top {
+  background-color: rgb(44, 52, 59);
+}
+
+.navbar.fixed-top .navbar-brand,
+.navbar.fixed-top .nav-link {
+  color: white;
+}
+
+.navbar.fixed-top {
+  position: fixed;
+  top: 0;
+  z-index: 1000; /* Ensure the navbar is above other content */
+}
+/* sign-in-button  */
+.custom-button {
+  padding: 10px 40px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-button:hover {
+  color: #ffffff;
+  background-color: #ff6f80;
+  border-color: #ff6f80;
+}
