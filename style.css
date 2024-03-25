@@ -1,0 +1,55 @@
+.team-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .team-member {
+    margin-bottom: 30px;
+  }
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .navigation {
+    margin-top: 30px;
+  }
+  .navigation .nav-item {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .navigation .nav-link {
+    color: #007bff;
+    font-size: 24px;
+  }
+  
+  /* Popular Questions */
+  .faq-section {
+    margin-top: 50px;
+  }
+  .faq-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  .faq-section .nav-link {
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  .faq-section .nav-link.active {
+    background-color: #f8f9fa;
+  }
+  .faq-section .tab-content {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+  }
+  .faq-section .question {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .faq-section .answer {
+    margin-bottom: 20px;
+  }
