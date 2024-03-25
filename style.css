@@ -139,3 +139,131 @@
   background-color: #ff6f80;
   border-color: #ff6f80;
 }
+
+/* read more 2 button  */
+.custom-button2 {
+  padding: 10px 40px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-button2:hover {
+  color: #ffffff;
+  background-color: #3375ec;
+  border-color: #3375ec;
+}
+/* read more 4 button  */
+.custom-button4 {
+  padding: 10px 40px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-button4:hover {
+  color: #ffffff;
+  background-color: #ff6f80;
+  border-color: #ff6f80;
+}
+/* read more 3 button  */
+.custom-button3 {
+  padding: 10px 40px;
+  background-color: #3375ec;
+  color: #ffffff;
+  border: 2px solid #3375ec;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-button3:hover {
+  color: #ffffff;
+  background-color: #ff6f80;
+  border-color: #ff6f80;
+}
+
+/* bg-image */
+.bg-image {
+  background-image: url("img/diverse-business-people-full-body-portrait-jobs-career-campaign.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.bg-image2 {
+  background-image: url("img/diverse-business-people-full-body-portrait-jobs-career-campaign.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* ctm-mt */
+.ctm-mt {
+  margin-top: 100px;
+}
+
+/* ctm-mb */
+.ctm-mb {
+  margin-bottom: 160px;
+}
+/* ctm-mt-2 */
+.ctm-mt-2 {
+  margin-top: 40px;
+}
+.custom-button-margin-right {
+  margin-right: 20px;
+}
+/* ctm-txt-break */
+.ctm-txt-break {
+  text-overflow: 20px;
+}
+.ctm-box {
+  background-color: #e5ebf7;
+  border-radius: 100px;
+  margin-left: 580px;
+  margin-right: 580px;
+}
+.ctm-box2 {
+  background-color: #5c91f0;
+  border-radius: 100px;
+  margin-right: 500px;
+}
+.ctm-box3 {
+  background-color: #e5ebf7;
+  color: #5c90ee;
+  border-radius: 100px;
+  margin-right: 552px;
+}
+.ctm-box4 {
+  background-color: #e5ebf7;
+  color: #5c90ee;
+  border-radius: 100px;
+  margin-right: 470px;
+}
+.ctm-box5 {
+  background-color: #e5ebf7;
+  color: #5c90ee;
+  border-radius: 100px;
+  margin-right: 570px;
+  margin-left: 570px;
+}
+.ctm-box6 {
+  background-color: #e5ebf7;
+  color: #5c91f0;
+  border-radius: 100px;
+  margin-right: 565px;
+  margin-left: 565px;
+}
+
+.bg-0d6efd {
+  background-color: #0d6efd;
+}
+.display-10 {
+  font-size: 11.5px;
+}
+.partner-logo {
+  filter: grayscale(100%);
+}
